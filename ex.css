@@ -1,0 +1,44 @@
+body {
+    height:100vh;
+    width:100vw;
+    padding:0;
+    margin:0;
+}
+
+#entete {
+    background-color:blue;
+    height:10vh;
+}
+
+#corps {
+    background-color:green;
+    height:75vh;
+}
+
+#pied {
+    background-color:red;
+    height:15vh;
+}
+
+#case1 {
+    position:relative;
+    background-color:yellow;
+    height:13vh;
+    width:30vw;
+    top:40vh;
+}
+
+/*#case2 {*/
+/*    position:relative;*/
+/*    background-color:yellow;*/
+/*    height:13vh;*/
+/*    width:30vw;*/
+
+/*}*/
+
+/*#case3 {*/
+/*    position:relative;*/
+/*    background-color:yellow;*/
+/*    height:13vh;*/
+/*    width:30vw;*/
+/*}*/
