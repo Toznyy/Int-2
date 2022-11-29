@@ -4,9 +4,8 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-header {
+body > header {
     background-color:#262626;
-    position:fixed;
     width:100vw;
     top:0;
 }
@@ -56,5 +55,74 @@ h1 {
     top:100vh;
     background-color:#f2f3e8;
     width:100vw;
-    height:100vh;
+    height:200vh;
+}
+
+#article1 {
+    position:absolute;
+    background-color:white;
+    width:30vw;
+    height:45vh;
+    top:10vh;
+    left:2vw;
+}
+
+#article2 {
+    position:absolute;
+    background-color:white;
+    width:30vw;
+    height:45vh;
+    top:10vh;
+    left:35vw;
+}
+
+#article3 {
+    position:absolute;
+    background-color:white;
+    width:30vw;
+    height:45vh;
+    top:10vh;
+    left:68vw;
+}
+
+#article4{
+    position:absolute;
+    background-color:white;
+    width:30vw;
+    height:45vh;
+    top:120vh;
+    left:2vw;
+    
+}
+
+#article5 {
+    position:absolute;
+    background-color:white;
+    width:30vw;
+    height:45vh;
+    top:120vh;
+    left:35vw;
+}
+
+#article6 {
+    position:absolute;
+    background-color:white;
+    width:30vw;
+    height:45vh;
+    top:120vh;
+    left:68vw;
+}
+
+article {
+    border:1px solid black;
+}
+
+#photo {
+    border-radius:100%;
+    width:5vw;
+    height:10vh;
+}
+
+#image {
+    width:30vw;
 }
